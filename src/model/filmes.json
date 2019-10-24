@@ -1,0 +1,58 @@
+[
+     { 
+      "id": 1,
+      "titulo": "Mr. Nobody",
+      "sinopse": "filme sobre a teoria do caos",
+      "releaseYear": "2009",
+      "duration": "160",
+      "type": "sifi"
+    },
+     { 
+    "id": 2,
+    "titulo": "Eternal Sunshine of the Spotless Mind",
+    "sinopse": "filme sobre pessoas que decidem apagar algumas memórias",
+    "releaseYear": "2004",
+    "duration": "98",
+    "type": "drama"
+    },
+    { 
+    "id": 3,
+    "titulo": "Spirited Away",
+    "sinopse": "filme sobre uma menina que fica presa em um mundo mágico",
+    "releaseYear": "2001",
+    "duration": "125",
+    "type": "animation"
+    },
+    { 
+    "id": 4,
+    "titulo": "Cloud Atlas",
+    "sinopse": "filme do povo que criou matrix tbm",
+    "releaseYear": "2012",
+    "duration": "172",
+    "type": "sifi"
+    },
+    { 
+    "id": 5,
+    "titulo": "Scott Pilgrim vs. the World",
+    "sinopse": "filme sobre a vida do Scott Pilgrim",
+    "releaseYear": "2010",
+    "duration": "110",
+    "type": "comedia"
+    },
+    { 
+    "id": 6,
+    "titulo": "Batman",
+    "sinopse": "filme sobre o heroi morcego",
+    "releaseYear": "2008",
+    "duration": "119",
+    "type": "action"    
+    },
+    { 
+    "id": 7,
+    "titulo": "Stuck in Love",
+    "sinopse": "filme sobre casos de amor",
+    "releaseYear": "2012",
+    "duration": "97",
+    "type": "drama"
+    }
+]
