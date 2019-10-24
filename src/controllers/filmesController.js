@@ -10,13 +10,12 @@ exports.getById = (req, res) => {
     if (id > 7 || id <= 0) {
       res.send("esse filme não existe no doc")
     }
-    console.log(id)    
+    console.log(id)
     res.status(200).send(filmes.find(filmes => filmes.id == id))
 }
 
-exports.getByType = (req, res) => { 
-  const genero = req.params.genero
-  console.log(genero)    
-  res.status(200).send(filmes.filter(filme => filme.type == genero))
+exports.getByType = (req, res) => {
+  const genero = req.params.type
+  res.status(200).send(filmes.filter(filme => filme.type === genero))
 }
 

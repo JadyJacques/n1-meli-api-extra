@@ -7,6 +7,7 @@ router.get("/", controller.get)
 
 
 router.get("/:id", controller.getById)
-router.get("/:type", controller.getByType)
+router.get("/:type/buscar", controller.getByType)
+
 
 module.exports = router
