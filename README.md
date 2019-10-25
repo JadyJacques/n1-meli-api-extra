@@ -50,7 +50,7 @@ Lista de exemplo do retorno das rotas.
 ]
 }`
 
-## Get By Name
+## Get By Genero
 
 ### Request
 
