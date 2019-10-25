@@ -15,7 +15,27 @@ exports.getById = (req, res) => {
 }
 
 exports.getByType = (req, res) => {
-  const genero = req.params.type
-  res.status(200).send(filmes.filter(filme => filme.type === genero))
-}
+  const genero = req.params.nome;
+  const filmesGenero = filmes.filter(filme => filme.genero.indexOf(genero) > -1);
+  res.status(200).send(filmesGenero);
+};
 
+exports.getFilmesLongos = (req, res) => {
+  const filmesLongos = filmes.filter(filme => filme.duration > 120)
+  res.status(200).send(filmesLongos);
+  console.log(filmesLongos)
+};
+
+exports.getByRelease = (req, res) => {
+  filmes.forEach(filme => filme.dataLancamento = transformarDataLancamentoEmDate(filme.dataLancamento));
+
+  const dataAtual = new Date();
+  const lancamentos = filmes.filter(filme => filme.dataLancamento > dataAtual);
+  res.status(200).send(lancamentos);
+
+  function transformarDataLancamentoEmDate(fim){
+    const lancamentoSplitado = fim.split('/');
+    const lancamento = new Date(lancamentoSplitado[2], lancamentoSplitado[1] - 1, lancamentoSplitado[0]);
+    return lancamento;
+  };
+};

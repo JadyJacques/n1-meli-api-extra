@@ -3,56 +3,72 @@
       "id": 1,
       "titulo": "Mr. Nobody",
       "sinopse": "filme sobre a teoria do caos",
-      "releaseYear": "2009",
+      "dataLancamento": "04/08/2012",
       "duration": "160",
-      "type": "sifi"
+      "genero": ["drama", "scifi"]
     },
      { 
     "id": 2,
     "titulo": "Eternal Sunshine of the Spotless Mind",
     "sinopse": "filme sobre pessoas que decidem apagar algumas memórias",
-    "releaseYear": "2004",
+    "dataLancamento": "23/07/2004",
     "duration": "98",
-    "type": "drama"
+    "genero": ["drama", "romance"]
     },
     { 
     "id": 3,
     "titulo": "Spirited Away",
     "sinopse": "filme sobre uma menina que fica presa em um mundo mágico",
-    "releaseYear": "2001",
+    "dataLancamento": "18/07/2003",
     "duration": "125",
-    "type": "animation"
+    "genero": ["animacao", "scifi"]
     },
     { 
     "id": 4,
     "titulo": "Cloud Atlas",
     "sinopse": "filme do povo que criou matrix tbm",
-    "releaseYear": "2012",
+    "dataLancamento": "11/01/2013",
     "duration": "172",
-    "type": "sifi"
+    "genero": ["drama", "scifi"]
     },
     { 
     "id": 5,
     "titulo": "Scott Pilgrim vs. the World",
     "sinopse": "filme sobre a vida do Scott Pilgrim",
-    "releaseYear": "2010",
+    "dataLancamento": "05/11/2010",
     "duration": "110",
-    "type": "comedia"
+    "genero": ["comedia", "acao"]
     },
     { 
     "id": 6,
-    "titulo": "Batman",
+    "titulo": "Batman Begins",
     "sinopse": "filme sobre o heroi morcego",
-    "releaseYear": "2008",
+    "dataLancamento": "17/06/2005",
     "duration": "119",
-    "type": "action"    
+    "genero": ["acao", "drama"]    
     },
     { 
     "id": 7,
     "titulo": "Stuck in Love",
     "sinopse": "filme sobre casos de amor",
-    "releaseYear": "2012",
+    "dataLancamento": "09/09/2012",
     "duration": "97",
-    "type": "drama"
-    }
+    "genero": ["drama", "romance"]
+    },
+    { 
+      "id": 8,
+      "titulo": "Zumbilandia 2",
+      "sinopse": "filme sobre maluquices num mundo de zumbi",
+      "dataLancamento": "31/10/2019",
+      "duration": "100",
+      "genero": ["acao", "comedia"]
+      },
+      { 
+        "id": 9,
+        "titulo": "Star Wars IX",
+        "sinopse": "filme sobre os skywalker tudo",
+        "dataLancamento": "15/12/2019",
+        "duration": "115",
+        "genero": ["scifi", "aventura"]
+        }
 ]

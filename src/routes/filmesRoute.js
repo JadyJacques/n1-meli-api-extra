@@ -7,7 +7,10 @@ router.get("/", controller.get)
 
 
 router.get("/:id", controller.getById)
-router.get("/genero/:type", controller.getByType)
+router.get("/genero/:nome", controller.getByType)
+router.get("/longos/resultado", controller.getFilmesLongos)
+router.get("/release/resultado", controller.getByRelease)
+
 
 
 module.exports = router
